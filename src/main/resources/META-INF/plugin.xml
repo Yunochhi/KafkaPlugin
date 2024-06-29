@@ -1,0 +1,15 @@
+<idea-plugin>
+    <id>org.example.testPlugin</id>
+    <name>TestPlugin</name>
+    <vendor email="support@yourcolmpany.com" url="https://www.yourcompany.com"> </vendor>
+    <description> My simple IntelliJ IDEA plugin for sending Json data </description>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij"> </extensions>
+
+    <actions>
+        <action class="org.example.testplugin.KafkaAction" text="Send Data To Kafka" description="Send Data To Kafka">
+            <add-to-group group-id="RunMenu" anchor="last" />
+        </action>
+    </actions>
+
+</idea-plugin>

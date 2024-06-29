@@ -1,0 +1,10 @@
+{
+  "topic": "TestTopic",
+  "key": "test-key",
+  "value": "Hello kafka!",
+  "headers": {
+    "header1": "header1",
+    "header2": "header2",
+    "header3": "header3"
+  }
+}
